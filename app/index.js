@@ -117,7 +117,7 @@ export default function HomeScreen() {
                         <TextInput
                             value={newTask} // O valor do campo de texto é controlado pelo estado `newTask`
                             onChangeText={setNewTask} // Atualiza o estado com o novo texto
-                            placeholder="Ex: 55+ (11) 99999-9999"
+                            placeholder="Ex: 55+ (00) 00000-0000"
                             style={styles.input}
                         />
                         <Pressable onPress={addOrEditTask} style={{ marginBottom: 8 }}>
